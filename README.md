@@ -1,15 +1,15 @@
 # Ali Asghar 👋  
 ### A Passionate MERN Stack Developer from Pakistan  
 
-<div align="center" style="background-color: #1a1a1a; padding: 20px; border-radius: 10px;">
+<div align="center" style="background-color: #0f766e; padding: 20px; border-radius: 10px;">
   <table>
     <tr>
       <td width="30%" align="center">
-        <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Profile Image" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 4px solid #3b82f6;">
+        <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Profile Image" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 4px solid #22d3ee;">
       </td>
-      <td width="70%" align="left" style="color: #e5e7eb; font-family: Arial, sans-serif;">
+      <td width="70%" align="left" style="color: #f3f4f6; font-family: Arial, sans-serif;">
         <h1 style="color: #ffffff; font-size: 2.5em; margin-bottom: 10px;">Hi, I'm Ali Asghar</h1>
-        <h3 style="color: #10b981; font-size: 1.5em;">Crafting innovative web solutions with the MERN stack from Pakistan.</h3>
+        <h3 style="color: #a3e635; font-size: 1.5em;">Crafting innovative web solutions with the MERN stack from Pakistan.</h3>
       </td>
     </tr>
   </table>
@@ -18,18 +18,21 @@
 ---
 
 ## About Me  
-- 🔭 **Currently working on**: [Traveling Agency](https://traveling-agency-ke8z.vercel.app/)  
-- 🌱 **Currently learning**: Angular, Django  
-- 👯 **Looking to collaborate on**: DevOps projects  
-- 👨‍💻 **My projects**: [LinkedIn Portfolio](https://www.linkedin.com/in/ali-asghar-a730322bb)  
-- 💬 **Ask me about**: React, Python, MySQL  
-- 📫 **Reach me at**: [aliasghargh540@gmail.com](mailto:aliasghargh540@gmail.com)  
-- 📄 **My experience**: [Resume](https://example.com/asghar-resume.pdf) *(Note: Update with a hosted URL for accessibility)*  
-- ⚡ **Fun fact**: I love exploring new technologies and ideas!  
+<div style="background-color: #1e3a8a; padding: 15px; border-radius: 8px; color: #e5e7eb;">
+- 🔭 **Currently working on**: <a href="https://traveling-agency-ke8z.vercel.app/" style="color: #22d3ee;">Traveling Agency</a>  
+- 🌱 **Currently learning**: <span style="color: #f472b6;">Angular, Django</span>  
+- 👯 **Looking to collaborate on**: <span style="color: #a3e635;">DevOps projects</span>  
+- 👨‍💻 **My projects**: <a href="https://www.linkedin.com/in/ali-asghar-a730322bb" style="color: #22d3ee;">LinkedIn Portfolio</a>  
+- 💬 **Ask me about**: <span style="color: #f472b6;">React, Python, MySQL</span>  
+- 📫 **Reach me at**: <a href="mailto:aliasghargh540@gmail.com" style="color: #22d3ee;">aliasghargh540@gmail.com</a>  
+- 📄 **My experience**: <a href="https://example.com/asghar-resume.pdf" style="color: #22d3ee;">Resume</a> *(Note: Update with a hosted URL)*  
+- ⚡ **Fun fact**: <span style="color: #a3e635;">I love exploring new technologies and ideas!</span>  
+</div>
 
 ---
 
 ## Connect with Me  
+<div style="background-color: #5b21b6; padding: 15px; border-radius: 8px;">
 <p align="center">
   <a href="https://twitter.com/aliasghar" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="40" width="50" style="margin: 0 10px;"></a>
   <a href="https://linkedin.com/in/ali-asghar-a730322bb" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="50" style="margin: 0 10px;"></a>
@@ -37,10 +40,12 @@
   <a href="https://instagram.com/aliasghar" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="40" width="50" style="margin: 0 10px;"></a>
   <a href="https://leetcode.com/ali-asghar-102938475" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="40" width="50" style="margin: 0 10px;"></a>
 </p>
+</div>
 
 ---
 
 ## Languages and Tools  
+<div style="background-color: #1f2937; padding: 15px; border-radius: 8px;">
 <p align="center">
   <a href="https://aws.amazon.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="50" style="margin: 10px;"></a>
   <a href="https://getbootstrap.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50" style="margin: 10px;"></a>
@@ -64,12 +69,15 @@
   <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50" style="margin: 10px;"></a>
   <a href="https://vuejs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="Vue.js" width="50" height="50" style="margin: 10px;"></a>
 </p>
+</div>
 
 ---
 
 ## GitHub Stats  
+<div style="background-color: #44403c; padding: 15px; border-radius: 8px;">
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aliasghar&show_icons=true&locale=en&layout=compact&theme=dark" alt="Top Languages" style="margin: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=aliasghar&show_icons=true&locale=en&theme=dark" alt="GitHub Stats" style="margin: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aliasghar&theme=dark" alt="Streak Stats" style="margin: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aliasghar&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" style="margin: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=aliasghar&show_icons=true&locale=en&theme=radical" alt="GitHub Stats" style="margin: 10px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aliasghar&theme=radical" alt="Streak Stats" style="margin: 10px;">
 </p>
+</div>
