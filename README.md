@@ -1,13 +1,6 @@
 # Ali Asghar ✨  
 ### MERN Stack Developer | Open Source Enthusiast | Digital Craftsman  
 
-<div align="center" style="background: linear-gradient(135deg, #0f766e, #115e59); padding: 30px; border-radius: 16px; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUB47-WsJlGnIEc6vu9RAmawxaLjYY6H9EvuoFouZp2mLkBxUgeLtcQLA&s" alt="Ali Asghar" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover; border: 4px solid #22d3ee; box-shadow: 0 10px 30px rgba(34,211,238,0.4);">
-  <h1 style="color: #ffffff; font-size: 2.8em; margin: 20px 0 8px; font-weight: 700; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Ali Asghar</h1>
-  <h3 style="color: #a3e635; font-size: 1.4em; margin: 0; font-weight: 400;">Crafting digital excellence from Pakistan</h3>
-</div>
-
----
 ## 🌟 About Me  
 <div style="background: linear-gradient(135deg, #1e3a8a, #1e40af); padding: 30px; border-radius: 16px; box-shadow: 0 8px 24px rgba(30,58,138,0.3); text-align: center;">
 
@@ -53,7 +46,7 @@
 </p>
 
 </div>
----
+
 
 ## 🌈 Connect With Me  
 <div style="background: linear-gradient(135deg, #5b21b6, #6d28d9); padding: 25px; border-radius: 16px; box-shadow: 0 8px 24px rgba(91,33,182,0.3); text-align: center;">
