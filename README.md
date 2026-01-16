@@ -122,10 +122,10 @@ const aliAsghar = {
 </div>
 </td>
 <td width="50%">
-<h3 align="center">💼 Your Project 2</h3>
+<h3 align="center">💼 Personal Portfolio</h3>
 <div align="center">  
-<a href="https://github.com/aliasghar" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<p><strong>React, Node.js, MongoDB</strong> - Add your amazing project description here</p>
+<a href="https://asghar-portfolio-six.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<p><strong>React, Node.js, MongoDB</strong> - Check out the deatils about me!</p>
 </div>
 </td>
 </tr>
