@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ali%20Asghar&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Data+Scientist+%F0%9F%9A%80;AI+Enthusiast+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Data+Scientist;AI+Enthusiast" alt="Typing SVG" />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aliasghar&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Profile Views" />
@@ -20,7 +20,7 @@
 
 ---
 
-## 🎯 About Me
+## About Me
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
@@ -31,30 +31,30 @@ const aliAsghar = {
     currentFocus: "Building scalable web apps",
     learning: ["Angular", "Django", "Microservices"],
     interests: ["DevOps", "Open Source", "AI/ML"],
-    funFacts: ["Rubik's Cube Solver 🎲", 
-               "Tech Blogger ✍️", 
-               "Coffee Enthusiast ☕"]
+    funFacts: ["Rubik's Cube Solver ", 
+               "Tech Blogger ", 
+               "Coffee Enthusiast "]
 };
 ```
 
 <br clear="right"/>
 
-- 🔭 **Currently working on:** [AI/ML ,Travel Platform](https://traveling-agency-ke8z.vercel.app/)
-- 🌱 **Currently learning:** Angular, Django, Microservices Architecture
-- 👯 **Looking to collaborate on:** DevOps, Open Source, and AI Projects
-- 💬 **Ask me about:** React, Python, MySQL, MERN Stack
-- 📫 **Reach me:** aliasghargh540@gmail.com
-- ⚡ **Fun fact:** I can solve a Rubik's cube while debugging code!
+-  **Currently working on:** [AI/ML ,Travel Platform](https://traveling-agency-ke8z.vercel.app/)
+-  **Currently learning:** Angular, Django, Microservices Architecture
+-  **Looking to collaborate on:** DevOps, Open Source, and AI Projects
+-  **Ask me about:** React, Python, MySQL, MERN Stack
+-  **Reach me:** aliasghargh540@gmail.com
+-  **Fun fact:** I can solve a Rubik's cube while debugging code!
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
----
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 
 <div align="center">
 
-### 🎨 Frontend Development
+###  Frontend Development
 <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
@@ -69,7 +69,7 @@ const aliAsghar = {
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### ⚙️ Backend Development
+###  Backend Development
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
@@ -80,7 +80,7 @@ const aliAsghar = {
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-### 🗄️ Database & Cloud
+###  Database & Cloud
 <img src="https://user-images.githubusercontent.com/74038190/238200428-67f477ed-6624-42da-99f0-1a7b1a16eecb.gif" width="100">
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -90,7 +90,7 @@ const aliAsghar = {
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-### 🔧 Tools & DevOps
+###  Tools & DevOps
 <img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="100">
@@ -106,39 +106,39 @@ const aliAsghar = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
----
 
-## 🌟 Featured Projects
+
+##  Featured Projects
 
 <div align="center">
 
 <table>
 <tr>
 <td width="50%">
-<h3 align="center">🌍 Travel Agency Platform</h3>
+<h3 align="center"> Travel Agency Platform</h3>
 <div align="center">  
 <a href="https://traveling-agency-ke8z.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Visit-Live%20Site-success?style=for-the-badge&logo=vercel" alt="Live Site" /></a>
 <p><strong>Next.js, TypeScript, Tailwind CSS</strong> - Modern travel booking platform with real-time availability and beautiful UI</p>
 </div>
 </td>
 <td width="50%">
-<h3 align="center">💼 Personal Portfolio</h3>
+<h3 align="center"> Personal Portfolio</h3>
 <div align="center">  
-<a href="https://asghar-portfolio-six.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<p><strong>React, Node.js, MongoDB</strong> - Check out the deatils about me!</p>
+<a href="https://asghar-portfolio-six.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Visit-Live%20Site-success?style=for-the-badge&logo=vercel" alt="Live Site" /></a>
+<p><strong>MongoDB, Express.js, React.js, Node.js – Modern travel booking platform with real-time availability and a clean, responsive UI</p>
 </div>
 </td>
 </tr>
 <tr>
 <td width="50%">
-<h3 align="center">🚀 Your Project 3</h3>
+<h3 align="center"> Your Project 3</h3>
 <div align="center">  
 <a href="https://github.com/aliasghar" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
 <p><strong>Python, Django, PostgreSQL</strong> - Add your amazing project description here</p>
 </div>
 </td>
 <td width="50%">
-<h3 align="center">⚡ Your Project 4</h3>
+<h3 align="center"> Your Project 4</h3>
 <div align="center">  
 <a href="https://github.com/aliasghar" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
 <p><strong>MERN Stack</strong> - Add your amazing project description here</p>
@@ -152,7 +152,7 @@ const aliAsghar = {
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 
-## 📈 Contribution Snake
+##  Contribution Snake
 
 <div align="center">
   <picture>
@@ -163,9 +163,10 @@ const aliAsghar = {
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="1000">
----
 
-## 💼 Skills & Experience
+
+
+##  Skills & Experience
 
 <div align="center">
 
@@ -175,26 +176,27 @@ const aliAsghar = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
----
 
-## 🎓 Certifications & Achievements
+
+##  Certifications & Achievements
 
 <div align="center">
 
 | Achievement | Description | Link |
 |-------------|-------------|------|
-| 🏅 **LeetCode** | Active problem solver | [Profile](https://leetcode.com/ali-asghar-102938475) |
-| 🎯 **Open Source** | Contributing to various projects | [GitHub](https://github.com/aliasghar) |
-| 📚 **Continuous Learner** | Currently mastering Angular & Django | 🚀 |
-| 💡 **Tech Blogger** | Sharing knowledge with the community | ✍️ |
+|  **LeetCode** | Active problem solver | [Profile](https://leetcode.com/ali-asghar-102938475) |
+|  **Open Source** | Contributing to various projects | [GitHub](https://github.com/aliasghar) |
+|  **Continuous Learner** | Currently mastering React.js , Django & AI/ML |  |
+|  **Tech Blogger** | Sharing knowledge with the community |  |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
----
 
-## 🤝 Connect With Me
+
+
+##  Connect With Me
 
 <div align="center">
 
@@ -225,23 +227,23 @@ const aliAsghar = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
----
 
-## 💭 Random Dev Quote
+
+##  Random Dev Quote
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 </div>
 
----
+
 
 <div align="center">
 
-### 💡 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+###  *"Code is like humor. When you have to explain it, it's bad."* – Cory House
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-**Thanks for visiting! Let's connect and build something amazing together! 🚀**
+**Thanks for visiting! Let's connect and build something amazing together! **
 
 </div>
 
