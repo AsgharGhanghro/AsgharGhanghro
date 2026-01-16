@@ -39,7 +39,7 @@ const aliAsghar = {
 
 <br clear="right"/>
 
-- 🔭 **Currently working on:** [Next.js Travel Platform](https://traveling-agency-ke8z.vercel.app/)
+- 🔭 **Currently working on:** [AI/ML ,Travel Platform](https://traveling-agency-ke8z.vercel.app/)
 - 🌱 **Currently learning:** Angular, Django, Microservices Architecture
 - 👯 **Looking to collaborate on:** DevOps, Open Source, and AI Projects
 - 💬 **Ask me about:** React, Python, MySQL, MERN Stack
