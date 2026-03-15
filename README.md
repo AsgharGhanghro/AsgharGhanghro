@@ -39,12 +39,12 @@ const aliAsghar = {
 
 <br clear="right"/>
 
--  **Currently working on:** [AI/ML ,Travel Platform](https://traveling-agency-ke8z.vercel.app/)
+-  **Currently working on:** [AI/ML]
 -  **Currently learning:** Angular, Django, Microservices Architecture
 -  **Looking to collaborate on:** DevOps, Open Source, and AI Projects
 -  **Ask me about:** React, Python, MySQL, MERN Stack
 -  **Reach me:** aliasghargh540@gmail.com
--  **Fun fact:** I can solve a Rubik's cube while debugging code!
+  
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
@@ -131,17 +131,17 @@ const aliAsghar = {
 </tr>
 <tr>
 <td width="50%">
-<h3 align="center"> Your Project 3</h3>
+<h3 align="center">Joke Analyzer</h3>
 <div align="center">  
-<a href="https://github.com/aliasghar" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<p><strong>Python, Django, PostgreSQL</strong> - Add your amazing project description here</p>
+<a href="https://joke-analyzer.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<p><strong>Python with its labraries , Flask, Html , Css , Js </strong> - AI Joke Analyzer with real-time feedback and dynamic battery based on joke quality.</p>
 </div>
 </td>
 <td width="50%">
-<h3 align="center"> Your Project 4</h3>
+<h3 align="center">Coronery Artery Disease Prediction</h3>
 <div align="center">  
-<a href="https://github.com/aliasghar" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<p><strong>MERN Stack</strong> - Add your amazing project description here</p>
+<a href="https://coronery-artery-disease-prd.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/View-Code-blue?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<p><strong>Python with its labraries , Flask, Html , Css , Js </strong> - AI-based Coronary Artery Disease prediction with real-time risk analysis.</p>
 </div>
 </td>
 </tr>
