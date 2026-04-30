@@ -4,15 +4,21 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Data+Scientist;AI+Enthusiast" alt="Typing SVG" />
 
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aliasghar&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/aliasghar?label=Followers&style=flat-square&color=58A6FF" alt="followers" />
   <img src="https://img.shields.io/github/stars/aliasghar?label=Stars&style=flat-square&color=FFA116" alt="stars" />
-</p>
+</p><br>
+
+<img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%"/><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ali-asghar-a730322bb)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aliasghargh540@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-asghar-ali.vercel.app/)
+
+
+
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
