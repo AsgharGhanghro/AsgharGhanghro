@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ali%20Asghar&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Data+Scientist;AI+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Data+Scientist;AI/ML+Engineer" alt="Typing SVG" />
 
 
 <p align="center">
@@ -17,9 +17,6 @@
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aliasghargh540@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-asghar-ali.vercel.app/)
 
-
-
-
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 </div>
@@ -32,11 +29,11 @@
 
 ```typescript
 const aliAsghar = {
-    location: "Hyderabad, Sindh 🇵🇰",
-    role: "Full Stack Developer",
+    location: "Naushero Feroze, Sindh 🇵🇰",
+    role: "AI/ML Engineer",
     currentFocus: "Building scalable web apps",
-    learning: ["Angular", "Django", "Microservices"],
-    interests: ["DevOps", "Open Source", "AI/ML"],
+    learning: ["Python (Oops)", "Django", "Tensorflow"],
+    interests: ["DevOps", "Computer Vision", "AI/ML"],
     funFacts: ["Rubik's Cube Solver ", 
                "Tech Blogger ", 
                "Coffee Enthusiast "]
@@ -46,7 +43,7 @@ const aliAsghar = {
 <br clear="right"/>
 
 -  **Currently working on:** [AI/ML]
--  **Currently learning:** Angular, Django, Microservices Architecture
+-  **Currently learning:** Python, Django, Tensorflow
 -  **Looking to collaborate on:** DevOps, Open Source, and AI Projects
 -  **Ask me about:** React, Python, MySQL, MERN Stack
 -  **Reach me:** aliasghargh540@gmail.com
