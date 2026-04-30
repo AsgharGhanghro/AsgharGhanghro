@@ -40,8 +40,6 @@ const aliAsghar = {
 };
 ```
 
-<br clear="right"/>
-
 -  **Currently working on:** [AI/ML]
 -  **Currently learning:** Python, Django, Tensorflow
 -  **Looking to collaborate on:** DevOps, Open Source, and AI Projects
