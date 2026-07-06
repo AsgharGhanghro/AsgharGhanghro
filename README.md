@@ -242,8 +242,19 @@ const aliAsghar = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-**Thanks for visiting! Let's connect and build something amazing together! **
+Thanks for visiting! Let's connect and build something amazing together! 
 
 </div>
 
+
+<details> <summary> Show More Stats</summary> <br> <img src="https://github-readme-activity-graph.vercel.app/graph?username=aliasghar&bg_color=0D1117&color=58A6FF&line=7C3AED&point=FFFFFF&area=true&hide_border=true" width="100%"/> </details></div>
+
+📝 License & Attribution
+<div align="center">
+This README is inspired by the open-source community. Feel free to use and customize it for your own profile!
+
+Built with ❤️ by Ali Asghar
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+
+
