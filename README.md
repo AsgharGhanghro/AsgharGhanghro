@@ -249,8 +249,9 @@ Thanks for visiting! Let's connect and build something amazing together!
 
 <details> <summary> Show More Stats</summary> <br> <img src="https://github-readme-activity-graph.vercel.app/graph?username=aliasghar&bg_color=0D1117&color=58A6FF&line=7C3AED&point=FFFFFF&area=true&hide_border=true" width="100%"/> </details></div>
 
-📝 License & Attribution
+License & Attribution
 <div align="center">
+  
 This README is inspired by the open-source community. Feel free to use and customize it for your own profile!
 
 Built with ❤️ by Ali Asghar
