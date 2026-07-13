@@ -1,0 +1,38 @@
+name: Update profile SVG banners
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day — change or remove if you don't need it
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "ascii_to_svg.py"
+
+jobs:
+  update-svgs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyfiglet
+
+      - name: Generate SVGs
+        run: python ascii_to_svg.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark.svg light.svg
+          git diff --quiet --cached || git commit -m "chore: update profile banner SVGs"
+          git push
