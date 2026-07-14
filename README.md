@@ -25,11 +25,10 @@
 
 <div align="center">
   <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
-    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" />
+    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" width="900" />
   </a>
 </div>
 
-<sub>Profile card concept inspired by <a href="https://github.com/KARTHIK1749/KARTHIK1749">KARTHIK1749</a></sub>
 
 ## About Me
 
