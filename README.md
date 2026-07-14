@@ -24,7 +24,7 @@
 ---
 <div align="center">
   <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
-    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" width="7900" />
+    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" width="700" />
   </a>
 </div>
 
