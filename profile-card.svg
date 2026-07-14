@@ -1,79 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="632" viewBox="0 0 960 632">
+<svg xmlns="http://www.w3.org/2000/svg" width="936" height="571" viewBox="0 0 936 571">
 
   <style>
     .bg { fill: #0a0e12; }
     .frame { fill:none; stroke:#1f6f6b; stroke-width:1.5; rx:8; }
-    .art { font-family: 'Courier New', monospace; font-size: 9px; fill: #35e0d0; white-space: pre; }
+    .art { font-family: 'Courier New', monospace; font-size: 6px; fill: #35e0d0; white-space: pre; }
     .handle { font-family: 'Courier New', monospace; font-size: 13px; fill: #35e0d0; font-weight:bold; }
     .key { font-family: 'Courier New', monospace; font-size: 12px; fill: #7fdad3; }
     .val { font-family: 'Courier New', monospace; font-size: 12px; fill: #cfe9e6; }
     .section { font-family: 'Courier New', monospace; font-size: 12px; fill: #ff8a5c; font-weight:bold; }
     .div { font-family: 'Courier New', monospace; font-size: 12px; fill: #1f6f6b; }
   </style>
-  <rect class="bg frame" x="1" y="1" width="958" height="630" />
+  <rect class="bg frame" x="1" y="1" width="934" height="569" />
 
-<text class="art" x="30" y="40" xml:space="preserve">@@@@@@%%%%%%%%%################################*##**********</text>
-<text class="art" x="30" y="53" xml:space="preserve">@@@@@@%%%%%%%%%##########################*******************</text>
-<text class="art" x="30" y="66" xml:space="preserve">@@@@@@%%%%%%%%%#########################********************</text>
-<text class="art" x="30" y="79" xml:space="preserve">@@@@@@%%%%%%%%%#####*#########%#%%%%%###********************</text>
-<text class="art" x="30" y="92" xml:space="preserve">@@@@@@%%%%%%%%######**#######%%@@@@@@@%#********************</text>
-<text class="art" x="30" y="105" xml:space="preserve">@%@@@@%%%%%%%%######**#####%%@@%#****#@%#*******************</text>
-<text class="art" x="30" y="118" xml:space="preserve">@%%%@%%%%%%%%#######**####%@@@#==-----*%#*******************</text>
-<text class="art" x="30" y="131" xml:space="preserve">@@%%@%%%%%%%%#######**#####@@#==++=-=++##*******************</text>
-<text class="art" x="30" y="144" xml:space="preserve">@@%@@@%%%%%%%#######**####*#%=-=++=-=+=+#*******************</text>
-<text class="art" x="30" y="157" xml:space="preserve">@@%%@@%%%%%%%#######**####*=+=----=+=--+#*******************</text>
-<text class="art" x="30" y="170" xml:space="preserve">@@%%@@%%%%%%%#######**#####+++=--++*++-+#*******************</text>
-<text class="art" x="30" y="183" xml:space="preserve">@@%%@@%%%%%%%#######**#######+++===+==+*#*******************</text>
-<text class="art" x="30" y="196" xml:space="preserve">@@%%@@%%%%%%%%######***######++*#**#*+*#********************</text>
-<text class="art" x="30" y="209" xml:space="preserve">%@%%%@%%%%%%%%######***#####*+=+++*++-#%####****************</text>
-<text class="art" x="30" y="222" xml:space="preserve">%@%%%@%%%%%%%%######**###%%%+=+====+--%%%%%%%##*************</text>
-<text class="art" x="30" y="235" xml:space="preserve">%@%%%@%%%%%%%%#######%%%%%%%*-=====-:*%%%%%%%%%%%***********</text>
-<text class="art" x="30" y="248" xml:space="preserve">@@%%%@%%%%%%%%#####%%%%%%%%@+::::-::-%%%%%%%%%%%%#**********</text>
-<text class="art" x="30" y="261" xml:space="preserve">@@%%%@%%%%%%%%#####%%%%%%%%%+....::.=%%%%%%%%%%%%%#*********</text>
-<text class="art" x="30" y="274" xml:space="preserve">@@%%%@%%%%%%%%####%@@%%%%%%%+.......+%%%%%%%%%@%%%%*********</text>
-<text class="art" x="30" y="287" xml:space="preserve">@@%%%@@%%%%%%%####%@@@%%%%%%+.......#%%%%%%%%@@%%%%#********</text>
-<text class="art" x="30" y="300" xml:space="preserve">@@%%%@@%%%%%%%###%@@@@@%%%%%*......-%%%%%%%%%@@@%%%%********</text>
-<text class="art" x="30" y="313" xml:space="preserve">@@@@@@@%%%%%%%###%@@@@@@%%%%#:.....+%%@%%%%%%@@@%%%%#*******</text>
-<text class="art" x="30" y="326" xml:space="preserve">%%%%%%%%%%%%%%%#%%@@@@@@@@%%#-:...:*%@%%%%%%@@@@%%%%#*******</text>
-<text class="art" x="30" y="339" xml:space="preserve">%%%%%%%%%%%%%%%%%%@@@@@@@@@%%-....:#%@%%%%%@@@@@@@%%%*******</text>
-<text class="art" x="30" y="352" xml:space="preserve">#%%%%%%%%%%%%%%%%@@@@@@@@@@@#-:...-%@@%%%%%@@@@@@@%%%####***</text>
-<text class="art" x="30" y="365" xml:space="preserve">#%%%%%%%%%%%%@@%%@@@@@@@@@@@#:....-%@@%%%%@@@@@@@@@@%%%%%%%%</text>
-<text class="art" x="30" y="378" xml:space="preserve">%%@@@@@@@@@@@@@@@@@@@@@@@@@@%-:...+%%%%%%%@@@@@@@@@%%%%%%%%%</text>
-<text class="art" x="30" y="391" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-:..:=%%%%%%@@%@@@@@@%%%%@@@@@@</text>
-<text class="art" x="30" y="404" xml:space="preserve">@@@@@@@@@@@@@@@@@%@@@@@@@@@@*-:..:-%%%%%%%%@@@@@@%%%%@@@@@@@</text>
-<text class="art" x="30" y="417" xml:space="preserve">@@@@@@@@@@@@@@@@@%%@@@@@@@@%+::..::*@%%%%%%%@@@@%%%%%@@@@@@@</text>
-<text class="art" x="30" y="430" xml:space="preserve">@@@@@@@@@@@@@@@@@%%@@@@@@@@%=::..::=%%%%%%%%%@@@%%%%%@@@@@@@</text>
-<text class="art" x="30" y="443" xml:space="preserve">@@@@@@@@@@@@@@@@@%@@@@@@@@@*-::..::-#%%%%@@%@@@@%%%%@@@@@@@@</text>
-<text class="art" x="30" y="456" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@%@@@%#####%%%%%%%%@@@@%%%%%@@@@@@@@</text>
-<text class="art" x="30" y="469" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@%%%%%%@@@@%%%%@@@@%%%%%@@%@%%%%%@@@@@@@@</text>
-<text class="art" x="30" y="482" xml:space="preserve">@@@@@@@@@@@@@@@@@@%%%%%%%@@@@@@@@@@@@@%%%%@@%%%%%%%@@@@@@@@@</text>
-<text class="art" x="30" y="495" xml:space="preserve">@@@@@@@@@@@@@@@@@@*%@%%@@@@@@@@@@@@@@@@@%%%%%%%##%@@@@@@@@@@</text>
-<text class="art" x="30" y="508" xml:space="preserve">@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@%%%%%#%@@@@@@@@@@@</text>
-<text class="art" x="30" y="521" xml:space="preserve">@@@@@%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@</text>
-<text class="art" x="30" y="534" xml:space="preserve">######%%%%%%%%%%@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@</text>
-<text class="art" x="30" y="547" xml:space="preserve">######%%%%%%%%%%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@</text>
-<text class="art" x="30" y="560" xml:space="preserve">#######%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@</text>
-<text class="art" x="30" y="573" xml:space="preserve">###########%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@</text>
-<text class="art" x="30" y="586" xml:space="preserve">*##########%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@</text>
-<text class="art" x="30" y="599" xml:space="preserve">#########%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@@</text>
-<text class="handle" x="490" y="40">Asghar@Neural-Grid</text>
-<text class="div" x="490" y="53" xml:space="preserve">----------------------------------</text>
-<text x="490" y="66"><tspan class="key" xml:space="preserve">Subject:          </tspan><tspan class="val">Ali Asghar</tspan></text>
-<text x="490" y="79"><tspan class="key" xml:space="preserve">Role:             </tspan><tspan class="val">AI/ML Engineer</tspan></text>
-<text x="490" y="92"><tspan class="key" xml:space="preserve">Origin:           </tspan><tspan class="val">Naushero Feroze, Sindh, Pakistan</tspan></text>
-<text x="490" y="105"><tspan class="key" xml:space="preserve">Status:           </tspan><tspan class="val">Building - Learning - Shipping</tspan></text>
-<text x="490" y="118"><tspan class="key" xml:space="preserve">ToolChain:        </tspan><tspan class="val">VS Code, Git, GitHub, Postman</tspan></text>
-<text class="div" x="490" y="131" xml:space="preserve"></text>
-<text x="490" y="144"><tspan class="key" xml:space="preserve">Neural.Core:      </tspan><tspan class="val">Python, JavaScript, TypeScript</tspan></text>
-<text x="490" y="157"><tspan class="key" xml:space="preserve">Neural.AI:        </tspan><tspan class="val">ML, Deep Learning, CV, NLP, GenAI</tspan></text>
-<text x="490" y="170"><tspan class="key" xml:space="preserve">Neural.Frontend:  </tspan><tspan class="val">React, Next.js, HTML/CSS, Tailwind</tspan></text>
-<text x="490" y="183"><tspan class="key" xml:space="preserve">Neural.Backend:   </tspan><tspan class="val">Node.js, Express, Django, Flask</tspan></text>
-<text x="490" y="196"><tspan class="key" xml:space="preserve">Neural.Stack:     </tspan><tspan class="val">MERN, Django, Flask</tspan></text>
-<text class="section" x="490" y="209">Contact</text>
-<text x="490" y="222"><tspan class="key" xml:space="preserve">Grid.Mail:        </tspan><tspan class="val">aliasghargh540@gmail.com</tspan></text>
-<text x="490" y="235"><tspan class="key" xml:space="preserve">Grid.Portfolio:   </tspan><tspan class="val">portfolio-asghar-ali.vercel.app</tspan></text>
-<text x="490" y="248"><tspan class="key" xml:space="preserve">Grid.LinkedIn:    </tspan><tspan class="val">ali-asghar-a730322bb</tspan></text>
-<text x="490" y="261"><tspan class="key" xml:space="preserve">Grid.Github:      </tspan><tspan class="val">AsgharGhanghro</tspan></text>
-<text class="section" x="490" y="274">GitHub Stats</text>
-<text class="val" x="490" y="287">Repos: -   Stars: -   Followers: -   Commits: -</text>
+<text class="art" x="30" y="40" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%######%###################################################**####******************</text>
+<text class="art" x="30" y="47" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%#################################################*********************************</text>
+<text class="art" x="30" y="54" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%########*###################################**************************************</text>
+<text class="art" x="30" y="61" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%########*#*####################**####*#####***************************************</text>
+<text class="art" x="30" y="68" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%########*#**##############*****########*******************************************</text>
+<text class="art" x="30" y="75" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%########*#**############**#####%%#%%%%%%###***************************************</text>
+<text class="art" x="30" y="82" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%#########****###########*##%%%%%%@@@@@%@@%%%#**************************************</text>
+<text class="art" x="30" y="89" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%##########****##########*#%%@@@%@@@@@@@@@@@%%%#*************************************</text>
+<text class="art" x="30" y="96" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%###########****###########%%@@@%@@@@@@@%%@@@@@%##************************************</text>
+<text class="art" x="30" y="103" xml:space="preserve">@@%%@@@@@@@%%%%%%%%%%%%%%###########****#######*#%%@@@@@%%#*+===-==+*%@@@%#***********************************</text>
+<text class="art" x="30" y="110" xml:space="preserve">@@@%@%@@@@@%%%%%%%%%%%%%%###########*****#####*#%@@@@@@@#==-----------*@@%#***********************************</text>
+<text class="art" x="30" y="117" xml:space="preserve">@@@%@%%@@@@%%%%%%%%%%%%%%###########*****#######%@@@@@@#=----::::::::--#@#************************************</text>
+<text class="art" x="30" y="124" xml:space="preserve">@@@%@%%@@@@%%%%%%%%%%%%%######*#####*****######*#@@@@@*=-==++*+=---=*+=*%*************************************</text>
+<text class="art" x="30" y="131" xml:space="preserve">@@@%@@%@@@@%%%%%%%%%%%%%############*****#######*#@@@*--=+**##*+--=**#*=#*************************************</text>
+<text class="art" x="30" y="138" xml:space="preserve">@@@%@@@@@@@%%%%%%%%%%%%%%###########*****#######+=+#@+-----------::----:+#************************************</text>
+<text class="art" x="30" y="145" xml:space="preserve">@@@%@@%@@@@%%%%%%%%%%%%%%###########*****#######+==+*+---::::---==----::=#**********************************++</text>
+<text class="art" x="30" y="152" xml:space="preserve">@@@%%@%@@@@%%%%%%%%%%%%%%###########*****########+=====-------=+***+---:+#************************************</text>
+<text class="art" x="30" y="159" xml:space="preserve">@@@%%@%@@@@@%%%%%%%%%%%%%###########*****#########+=++=-----=*++++++*=--***********************************+++</text>
+<text class="art" x="30" y="166" xml:space="preserve">@@@%%@%@@@@@%%%%%%%%%%%%%######*####*****############+===---====+++=-=-=#**********************************+++</text>
+<text class="art" x="30" y="173" xml:space="preserve">@@@%%@%@@@@@%%%%%%%%%%%%%######*####*****########***#++*++===----=--==+*#**********************************+++</text>
+<text class="art" x="30" y="180" xml:space="preserve">@@@%%@%%@@@@%%%%%%%%%%%%%######*#####*****#########*#+=+*####****##**+##*********************************+++++</text>
+<text class="art" x="30" y="187" xml:space="preserve">@@@%%%%%@@@@%%%%%%%%%%%%%############*****######****#+==++**######*+=:#%##******************************+*++++</text>
+<text class="art" x="30" y="194" xml:space="preserve">%@@@%%%%@@@@%%%%%%%%%%%%%############****####****##%+++======++++==+-:%%%%%%###****************************+++</text>
+<text class="art" x="30" y="201" xml:space="preserve">%@@@%%%%@@@@%%%%%%%%%%%%%######*#####******####%%%%@==*===========+= +@%%%%%%%%%####***********************+++</text>
+<text class="art" x="30" y="208" xml:space="preserve">%@@@%%%%@@@@%%%%%%%%%%%%%######*#####****#%%%%%%%%%@-.*+=========+- .#%%%%%%%%%%%%%%%###*******************+++</text>
+<text class="art" x="30" y="215" xml:space="preserve">@@@@%@@%@@@@%%%%%%%%%%%%%##############%%%%%%%%%%%%%=:-====----==:::=%%%%%%%%%%%%%%%%%%%%#******************+*</text>
+<text class="art" x="30" y="222" xml:space="preserve">@@@@%@@%@@@@%%%%%%%%%%%%%###########%%%%%%%%%%%%%%%%=:::::------..::#%%%%%%%%@%%%%%%%%%%%%#**************+++++</text>
+<text class="art" x="30" y="229" xml:space="preserve">@@@@%@@%@@@@%%%%%%%%%%%%%%#########%%%%%%%%%%%%%%%%@-.......---....-%%%%%%%%@%%%%%%%%%%%%%%#**************++++</text>
+<text class="art" x="30" y="236" xml:space="preserve">@@@@%%@%@@@@%%%%%%%%%%%%%%########%%%%%%%%%%%%%%%%%%-...... .:.::..+@%%%%%%%%%%%%%%%%%@%%%%#***************+++</text>
+<text class="art" x="30" y="243" xml:space="preserve">@@@@%%@%@@@@@%%%%%%%%%%%%%######*#%%@@%%%%%%%%%%%%%%- .............#%%%%%%%%%%%%%@%%%@%%%%%%#*************++++</text>
+<text class="art" x="30" y="250" xml:space="preserve">@@@@%%@%@@@@@%%%%%%%%%%%%%######*%@@@@%%%%%%%%%%%%%%- ........... :%%%%%%%@%%%%%@@@%@@%%%%%%%#***********+++++</text>
+<text class="art" x="30" y="257" xml:space="preserve">@@@@%%@%@@@@@%%%%%%%%%%%%%#######%@@@@@%@@%%%%%%%%%%= .....  .... +@%%%%%@%%%%%%%@@@@@@@%%%%%#************++++</text>
+<text class="art" x="30" y="264" xml:space="preserve">@@@@%%@%%@@@@%%%%%%%%%%%%%#######@@@@@@@@@@%%%@%%%%@= .....   .. .#%%%%%@%%%%%%%%@@@@@@@@%%%%%#***********++++</text>
+<text class="art" x="30" y="271" xml:space="preserve">@@@@@%@@@@@@@%%%%%%%%%%%%%######%@@@@@@@@@@@%%@%%%%@+ .....  ... -%%%%%@@%%%@@%%@@@@@@@@@@@@%%%************+++</text>
+<text class="art" x="30" y="278" xml:space="preserve">@@@@@%@@@@@@@%%%%%%%%%%%%%######%@@@@@@@@@@@@%@@%%%@* .....  ... +@%%%%@%%%%@@%%@@@@@@@@@@@%%%%#************+*</text>
+<text class="art" x="30" y="285" xml:space="preserve">@@@@@@@@@@@@@%%%%%%%%%%%%%######@@@@@@@@@@@@@@@@%%%@#....... ....#%%%%@%%%%%%@%@@@@@@@@@@@%%%%%%**************</text>
+<text class="art" x="30" y="292" xml:space="preserve">@@@@@@@@@@@@@%%%%%%%%%%%%%%####%@@@@@@@@@@@@@@@@@%%%#:.....  ...:%%%%@@%%%%%@@@%@@@@@@@@@@%%%%%%*************+</text>
+<text class="art" x="30" y="299" xml:space="preserve">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%@@@@@@@@@@@@@@@@@%%%%-:.........=%%%@@%%%%%%%@@@@@@@@@@@@@%%%%%%#************+</text>
+<text class="art" x="30" y="306" xml:space="preserve">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@%%%=:.........*@%@@@%%@@@%%@@@@@@@@@@@@@@%%%%%%*************</text>
+<text class="art" x="30" y="313" xml:space="preserve">###%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@%%%-.....  ...#%%@@@%%%@@@@@@@@@@@@@@@@@@@%%%%%*+***********</text>
+<text class="art" x="30" y="320" xml:space="preserve">##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@%%-.... ....:#%@@@@%%%%@@@@@@@@@@@@@@@@@@%%%%%#************</text>
+<text class="art" x="30" y="327" xml:space="preserve">#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@%%-.... ....:%@@@@@@%%%%%@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%</text>
+<text class="art" x="30" y="334" xml:space="preserve">#%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:....   ..-@%@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%</text>
+<text class="art" x="30" y="341" xml:space="preserve">%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=....  ...+@%@@@@@@%%%%@@@@@@@@@@@@@@@@@%%@@%%%%%%%%%%%%%</text>
+<text class="art" x="30" y="348" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%+-:..  ..:*@%%@@@@@%%%%@@@@@@@@@@@@@@@@@@@%@%%@%%%%%%%%%%</text>
+<text class="art" x="30" y="355" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@#:::.. ..::=@%%%%@@%%%%@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@</text>
+<text class="art" x="30" y="362" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=.........:%%%%%@%%%%@@@@%%@@@@@@@@@@%@%%%%@%@@@@@@@@@@@@</text>
+<text class="art" x="30" y="369" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-:...  ...:*@%%%@@%%@@@%%%@@@@@@@@@@@@%%%%%%%@@@@@@@@@@@@</text>
+<text class="art" x="30" y="376" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@%=::...  ..::+@%%%@@@@@@%%%@@@@@@@@@@@%%%%%%%%%@@@@@@@@@@@@</text>
+<text class="art" x="30" y="383" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@#-:.... ..:::-#@%%%@@@@%%%%@%@@@@@@@@@%%%%%%@%@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="390" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%*-::........::+@%%%@@@%%%%%%%%@@@@@@%@@%%%%%%%@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="397" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@#+-::::.....::--%%%%%%%@@@@@%%@@@@@@@@%%%%%%%%@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="404" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-:....     ..::+@%%%%@@@@@@@@@@@@@@@@@@@%%@%%@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="411" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@%%##+*+++****##%%%%%%@@%%%%%@@@@@@@@%%%@%%%@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="418" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@#@@@@@@%@@@@%%%%%%%%%%%@@@@@@@@%%@%%@%%@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="425" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@%@@@@@@@@@#%%%%%@%@@@@@%%%%%%%%%@@@@@%@@%%%%%%%%%@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="432" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%@@%%%%%%%%%@@@@@@@@@@@@@%@@@@@@@@@@%%%%%%@@@@@@%%%@%%%%%%%%@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="439" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%@@@@%%%%%#%%%%%%@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="446" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=%@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@%%%%%%###%%%%@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="453" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%##%%@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="460" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@###%%@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="467" xml:space="preserve">@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@+#@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="474" xml:space="preserve">@@@@@@@%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="481" xml:space="preserve">%%########%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="488" xml:space="preserve">###########%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="495" xml:space="preserve">############%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="502" xml:space="preserve">############%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="509" xml:space="preserve">################%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="516" xml:space="preserve">#####################%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="523" xml:space="preserve">#####################%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="530" xml:space="preserve">****################%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="537" xml:space="preserve">**#################%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="art" x="30" y="544" xml:space="preserve">###############%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="handle" x="466" y="40">Asghar@Neural-Grid</text>
+<text class="div" x="466" y="54" xml:space="preserve">----------------------------------</text>
+<text x="466" y="68"><tspan class="key" xml:space="preserve">Subject:          </tspan><tspan class="val">Ali Asghar</tspan></text>
+<text x="466" y="82"><tspan class="key" xml:space="preserve">Role:             </tspan><tspan class="val">AI/ML Engineer</tspan></text>
+<text x="466" y="96"><tspan class="key" xml:space="preserve">Origin:           </tspan><tspan class="val">Naushero Feroze, Sindh, Pakistan</tspan></text>
+<text x="466" y="110"><tspan class="key" xml:space="preserve">Status:           </tspan><tspan class="val">Building - Learning - Shipping</tspan></text>
+<text x="466" y="124"><tspan class="key" xml:space="preserve">ToolChain:        </tspan><tspan class="val">VS Code, Git, GitHub, Postman</tspan></text>
+<text class="div" x="466" y="138" xml:space="preserve"></text>
+<text x="466" y="152"><tspan class="key" xml:space="preserve">Neural.Core:      </tspan><tspan class="val">Python, JavaScript, TypeScript</tspan></text>
+<text x="466" y="166"><tspan class="key" xml:space="preserve">Neural.AI:        </tspan><tspan class="val">ML, Deep Learning, CV, NLP, GenAI</tspan></text>
+<text x="466" y="180"><tspan class="key" xml:space="preserve">Neural.Frontend:  </tspan><tspan class="val">React, Next.js, HTML/CSS, Tailwind</tspan></text>
+<text x="466" y="194"><tspan class="key" xml:space="preserve">Neural.Backend:   </tspan><tspan class="val">Node.js, Express, Django, Flask</tspan></text>
+<text x="466" y="208"><tspan class="key" xml:space="preserve">Neural.Stack:     </tspan><tspan class="val">MERN, Django, Flask</tspan></text>
+<text class="section" x="466" y="222">Contact</text>
+<text x="466" y="236"><tspan class="key" xml:space="preserve">Grid.Mail:        </tspan><tspan class="val">aliasghargh540@gmail.com</tspan></text>
+<text x="466" y="250"><tspan class="key" xml:space="preserve">Grid.Portfolio:   </tspan><tspan class="val">portfolio-asghar-ali.vercel.app</tspan></text>
+<text x="466" y="264"><tspan class="key" xml:space="preserve">Grid.LinkedIn:    </tspan><tspan class="val">ali-asghar-a730322bb</tspan></text>
+<text x="466" y="278"><tspan class="key" xml:space="preserve">Grid.Github:      </tspan><tspan class="val">AsgharGhanghro</tspan></text>
+<text class="section" x="466" y="292">GitHub Stats</text>
+<text class="val" x="466" y="306">Repos: -   Stars: -   Followers: -   Commits: -</text>
 </svg>
