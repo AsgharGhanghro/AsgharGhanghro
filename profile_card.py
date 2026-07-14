@@ -45,15 +45,17 @@ STATS = {
 # --------------------------------------------
 
 ASCII_CHARS = "@%#*+=-:. "
-ART_WIDTH = 60   # characters wide
-FONT_ASPECT = 0.55  # monospace chars are taller than wide
+ART_WIDTH = 110   # characters wide — higher = more recognizable detail
+FONT_ASPECT = 0.5  # monospace chars are taller than wide
 
 
 def image_to_ascii(path, width=ART_WIDTH):
+    from PIL import ImageOps
     img = Image.open(path).convert("L")
+    img = ImageOps.autocontrast(img, cutoff=1)
     w, h = img.size
     new_h = int(width * (h / w) * FONT_ASPECT)
-    img = img.resize((width, new_h))
+    img = img.resize((width, new_h), Image.LANCZOS)
     pixels = list(img.getdata())
     chars = []
     for i, p in enumerate(pixels):
@@ -69,10 +71,11 @@ def esc(s):
 
 
 def build_svg(art_lines):
-    char_w = 7.0
-    line_h = 13
-    art_px_w = int(max(len(l) for l in art_lines) * char_w)
-    art_px_h = len(art_lines) * line_h
+    art_char_w = 3.6
+    art_line_h = 7
+    line_h = 14  # panel line height
+    art_px_w = int(max(len(l) for l in art_lines) * art_char_w)
+    art_px_h = len(art_lines) * art_line_h
 
     panel_lines = []
     panel_lines.append(("handle", INFO["handle"]))
@@ -101,7 +104,7 @@ def build_svg(art_lines):
   <style>
     .bg {{ fill: #0a0e12; }}
     .frame {{ fill:none; stroke:#1f6f6b; stroke-width:1.5; rx:8; }}
-    .art {{ font-family: 'Courier New', monospace; font-size: 9px; fill: #35e0d0; white-space: pre; }}
+    .art {{ font-family: 'Courier New', monospace; font-size: 6px; fill: #35e0d0; white-space: pre; }}
     .handle {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #35e0d0; font-weight:bold; }}
     .key {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #7fdad3; }}
     .val {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #cfe9e6; }}
@@ -116,7 +119,7 @@ def build_svg(art_lines):
     art_x = 30
     for line in art_lines:
         svg_parts.append(f'<text class="art" x="{art_x}" y="{y}" xml:space="preserve">{esc(line)}</text>')
-        y += line_h
+        y += art_line_h
 
     # Info panel block
     panel_x = art_px_w + 70
