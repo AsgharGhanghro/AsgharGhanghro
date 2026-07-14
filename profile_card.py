@@ -1,7 +1,8 @@
 """
-Generates profile-card.svg: an ASCII-art portrait (from a photo) next to a
-neofetch-style terminal info panel, in a monochrome black & white terminal
-aesthetic. The art column height is auto-scaled to match the text column.
+Generates profile-card.svg — a neofetch-style terminal card: ASCII-art
+portrait on the left, dot-leader info panel on the right. Matches the
+KARTHIK1749/KARTHIK1749 reference layout exactly (same sections/order),
+filled in with your own info and photo.
 
 Usage:
     python profile_card.py photo.jpg
@@ -14,15 +15,13 @@ import sys
 from PIL import Image, ImageOps
 
 # ---------------- Your info ----------------
-HANDLE = "Asghar@Neural-Grid"
+HANDLE = "Ali@Neural-Grid"
 
 FIELDS_1 = {
     "Subject": "Ali Asghar",
-    "Role": "AI/ML Engineer & Full-Stack Dev",
-    "Origin": "Naushero Feroze, Sindh, Pakistan",
-    "Education": "CS Student, NED University",
-    "Experience": "3+ years",
-    "Status": "Building - Learning - Shipping",
+    "Role": "AI/ML Engineer",
+    "Origin": "Naushero Feroze, Pakistan",
+    "Status": "Building . Learning . Shipping",
     "ToolChain": "VS Code, Git, GitHub, Postman",
 }
 
@@ -32,23 +31,6 @@ FIELDS_2 = {
     "Neural.Frontend": "React, Next.js, HTML/CSS, Tailwind",
     "Neural.Backend": "Node.js, Express, Django, Flask",
     "Neural.Stack": "MERN, Django, Flask",
-    "Neural.DB": "MongoDB, PostgreSQL, MySQL, Redis",
-}
-
-ABOUT = {
-    "Currently.Learning": "Django, TensorFlow",
-    "Collab.Interest": "DevOps, Open Source, AI Projects",
-    "Focus.Area": "AI/ML for real-world PK context",
-    "  ": "(agriculture, energy, assistive tech)",
-    "Off.Grid": "Writes Urdu poetry",
-    "Philosophy": "Ships complete, production-ready apps",
-}
-
-ACHIEVEMENTS = {
-    "LeetCode": "Active problem solver",
-    "Open.Source": "Contributing to various projects",
-    "Status.2": "Continuous learner — React, Django, AI/ML",
-    "Status.3": "Tech blogger",
 }
 
 CONTACT = {
@@ -58,19 +40,19 @@ CONTACT = {
     "Grid.Github": "AsgharGhanghro",
 }
 
-# GitHub Stats — fill in manually, or wire up a GitHub Actions step that
-# fetches these via the API (see README notes) and rewrites this dict.
-STATS = {
-    "Repos": "-",
-    "Stars": "-",
-    "Followers": "-",
-    "Commits": "-",
-}
+# GitHub Stats — fill in your real numbers (or wire a GitHub Action step
+# that fetches them via the API and rewrites this dict before running).
+STATS_LINE_1 = "Repos: -   Stars: -"
+STATS_LINE_2 = "Commits: -   Followers: -"
+STATS_LINE_3 = "Lines of Code on GitHub: -"
 # --------------------------------------------
 
 ASCII_CHARS = "@%#*+=-:. "
 ART_WIDTH = 110    # characters wide — higher = more recognizable detail
 FONT_ASPECT = 0.5  # monospace chars are taller than wide
+
+LABEL_WIDTH = 16   # characters reserved for "Label:" before dot leaders
+DOTS_WIDTH = 22    # how many dot-leader characters to draw
 
 
 def image_to_ascii(path, width=ART_WIDTH):
@@ -93,35 +75,38 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def dot_leader(label):
+    """'Subject:' + dots, neofetch-style, e.g. 'Subject: ..............'"""
+    text = f"{label}:"
+    pad = max(3, DOTS_WIDTH - len(text))
+    return text + " " + ("." * pad)
+
+
 def build_panel_lines():
     panel_lines = []
     panel_lines.append(("handle", HANDLE))
-    panel_lines.append(("divider", "-" * 38))
+    panel_lines.append(("divider", "-" * 40))
     for k, v in FIELDS_1.items():
         panel_lines.append(("field", (k, v)))
-    panel_lines.append(("divider", ""))
+    panel_lines.append(("blank", ""))
     for k, v in FIELDS_2.items():
         panel_lines.append(("field", (k, v)))
-    panel_lines.append(("section", "About"))
-    for k, v in ABOUT.items():
-        panel_lines.append(("field", (k, v)))
-    panel_lines.append(("section", "Achievements"))
-    for k, v in ACHIEVEMENTS.items():
-        panel_lines.append(("field", (k, v)))
+    panel_lines.append(("blank", ""))
     panel_lines.append(("section", "Contact"))
     for k, v in CONTACT.items():
         panel_lines.append(("field", (k, v)))
+    panel_lines.append(("blank", ""))
     panel_lines.append(("section", "GitHub Stats"))
-    panel_lines.append(("stats",
-        f"Repos: {STATS['Repos']}   Stars: {STATS['Stars']}   "
-        f"Followers: {STATS['Followers']}   Commits: {STATS['Commits']}"))
+    panel_lines.append(("stats", STATS_LINE_1))
+    panel_lines.append(("stats", STATS_LINE_2))
+    panel_lines.append(("stats", STATS_LINE_3))
     return panel_lines
 
 
 def build_svg(art_lines):
     art_char_w = 3.6
     art_line_h = 7      # fixed — never distort the portrait's proportions
-    panel_line_h = 14
+    panel_line_h = 15
     top_pad = 40
 
     panel_lines = build_panel_lines()
@@ -142,7 +127,7 @@ def build_svg(art_lines):
 
     art_px_w = int(max(len(l) for l in art_lines) * art_char_w)
     total_h = max(art_h, panel_h) + top_pad + 30
-    total_w = art_px_w + 480 + 60
+    total_w = art_px_w + 520 + 60
     panel_x = art_px_w + 70
 
     svg_parts = [
@@ -150,14 +135,14 @@ def build_svg(art_lines):
     ]
     svg_parts.append(f'''
   <style>
-    .bg {{ fill: #000000; }}
-    .frame {{ fill:none; stroke:#4d4d4d; stroke-width:1.5; rx:8; }}
-    .art {{ font-family: 'Courier New', monospace; font-size: 6px; fill: #f2f2f2; white-space: pre; }}
-    .handle {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #ffffff; font-weight:bold; }}
-    .key {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #9a9a9a; }}
-    .val {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #e6e6e6; }}
-    .section {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #ffffff; font-weight:bold; }}
-    .div {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #4d4d4d; }}
+    .bg {{ fill: #0a0e12; }}
+    .frame {{ fill:none; stroke:#1f6f6b; stroke-width:1.5; rx:8; }}
+    .art {{ font-family: 'Courier New', monospace; font-size: 6px; fill: #35e0d0; white-space: pre; }}
+    .handle {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #35e0d0; font-weight:bold; }}
+    .key {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #35e0d0; }}
+    .val {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #cfe9e6; }}
+    .section {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #ff8a5c; font-weight:bold; }}
+    .div {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #1f6f6b; }}
   </style>
   <rect class="bg frame" x="1" y="1" width="{total_w - 2}" height="{total_h - 2}" />
 ''')
@@ -181,13 +166,13 @@ def build_svg(art_lines):
         elif kind == "section":
             svg_parts.append(f'<text class="section" x="{panel_x}" y="{y}">{esc(content)}</text>')
         elif kind == "stats":
-            svg_parts.append(f'<text class="val" x="{panel_x}" y="{y}">{esc(content)}</text>')
+            svg_parts.append(f'<text class="val" x="{panel_x}" y="{y}" xml:space="preserve">{esc(content)}</text>')
         elif kind == "field":
             k, v = content
-            label = f"{k}:".ljust(20)
+            label = dot_leader(k)
             svg_parts.append(
                 f'<text x="{panel_x}" y="{y}"><tspan class="key" xml:space="preserve">{esc(label)}</tspan>'
-                f'<tspan class="val">{esc(v)}</tspan></text>'
+                f' <tspan class="val">{esc(v)}</tspan></text>'
             )
         y += panel_line_h
 
