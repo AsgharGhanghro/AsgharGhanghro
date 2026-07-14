@@ -23,6 +23,14 @@
 
 ---
 
+<div align="center">
+  <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
+    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" />
+  </a>
+</div>
+
+<sub>Profile card concept inspired by <a href="https://github.com/KARTHIK1749/KARTHIK1749">KARTHIK1749</a></sub>
+
 ## About Me
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
@@ -257,5 +265,3 @@ This README is inspired by the open-source community. Feel free to use and custo
 Built with ❤️ by Ali Asghar
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
-
-
