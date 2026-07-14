@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="936" height="571" viewBox="0 0 936 571">
+<svg xmlns="http://www.w3.org/2000/svg" width="936" height="581" viewBox="0 0 936 581">
 
   <style>
-    .bg { fill: #0a0e12; }
-    .frame { fill:none; stroke:#1f6f6b; stroke-width:1.5; rx:8; }
-    .art { font-family: 'Courier New', monospace; font-size: 6px; fill: #35e0d0; white-space: pre; }
-    .handle { font-family: 'Courier New', monospace; font-size: 13px; fill: #35e0d0; font-weight:bold; }
-    .key { font-family: 'Courier New', monospace; font-size: 12px; fill: #7fdad3; }
-    .val { font-family: 'Courier New', monospace; font-size: 12px; fill: #cfe9e6; }
-    .section { font-family: 'Courier New', monospace; font-size: 12px; fill: #ff8a5c; font-weight:bold; }
-    .div { font-family: 'Courier New', monospace; font-size: 12px; fill: #1f6f6b; }
+    .bg { fill: #000000; }
+    .frame { fill:none; stroke:#4d4d4d; stroke-width:1.5; rx:8; }
+    .art { font-family: 'Courier New', monospace; font-size: 6px; fill: #f2f2f2; white-space: pre; }
+    .handle { font-family: 'Courier New', monospace; font-size: 13px; fill: #ffffff; font-weight:bold; }
+    .key { font-family: 'Courier New', monospace; font-size: 12px; fill: #9a9a9a; }
+    .val { font-family: 'Courier New', monospace; font-size: 12px; fill: #e6e6e6; }
+    .section { font-family: 'Courier New', monospace; font-size: 12px; fill: #ffffff; font-weight:bold; }
+    .div { font-family: 'Courier New', monospace; font-size: 12px; fill: #4d4d4d; }
   </style>
-  <rect class="bg frame" x="1" y="1" width="934" height="569" />
+  <rect class="bg frame" x="1" y="1" width="934" height="579" />
 
 <text class="art" x="30" y="40" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%######%###################################################**####******************</text>
 <text class="art" x="30" y="47" xml:space="preserve">@@@@@@@@@@@%%%%%%%%%%%%%%%%%#################################################*********************************</text>
@@ -86,23 +86,38 @@
 <text class="art" x="30" y="537" xml:space="preserve">**#################%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="art" x="30" y="544" xml:space="preserve">###############%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="handle" x="466" y="40">Asghar@Neural-Grid</text>
-<text class="div" x="466" y="54" xml:space="preserve">----------------------------------</text>
-<text x="466" y="68"><tspan class="key" xml:space="preserve">Subject:          </tspan><tspan class="val">Ali Asghar</tspan></text>
-<text x="466" y="82"><tspan class="key" xml:space="preserve">Role:             </tspan><tspan class="val">AI/ML Engineer</tspan></text>
-<text x="466" y="96"><tspan class="key" xml:space="preserve">Origin:           </tspan><tspan class="val">Naushero Feroze, Sindh, Pakistan</tspan></text>
-<text x="466" y="110"><tspan class="key" xml:space="preserve">Status:           </tspan><tspan class="val">Building - Learning - Shipping</tspan></text>
-<text x="466" y="124"><tspan class="key" xml:space="preserve">ToolChain:        </tspan><tspan class="val">VS Code, Git, GitHub, Postman</tspan></text>
-<text class="div" x="466" y="138" xml:space="preserve"></text>
-<text x="466" y="152"><tspan class="key" xml:space="preserve">Neural.Core:      </tspan><tspan class="val">Python, JavaScript, TypeScript</tspan></text>
-<text x="466" y="166"><tspan class="key" xml:space="preserve">Neural.AI:        </tspan><tspan class="val">ML, Deep Learning, CV, NLP, GenAI</tspan></text>
-<text x="466" y="180"><tspan class="key" xml:space="preserve">Neural.Frontend:  </tspan><tspan class="val">React, Next.js, HTML/CSS, Tailwind</tspan></text>
-<text x="466" y="194"><tspan class="key" xml:space="preserve">Neural.Backend:   </tspan><tspan class="val">Node.js, Express, Django, Flask</tspan></text>
-<text x="466" y="208"><tspan class="key" xml:space="preserve">Neural.Stack:     </tspan><tspan class="val">MERN, Django, Flask</tspan></text>
-<text class="section" x="466" y="222">Contact</text>
-<text x="466" y="236"><tspan class="key" xml:space="preserve">Grid.Mail:        </tspan><tspan class="val">aliasghargh540@gmail.com</tspan></text>
-<text x="466" y="250"><tspan class="key" xml:space="preserve">Grid.Portfolio:   </tspan><tspan class="val">portfolio-asghar-ali.vercel.app</tspan></text>
-<text x="466" y="264"><tspan class="key" xml:space="preserve">Grid.LinkedIn:    </tspan><tspan class="val">ali-asghar-a730322bb</tspan></text>
-<text x="466" y="278"><tspan class="key" xml:space="preserve">Grid.Github:      </tspan><tspan class="val">AsgharGhanghro</tspan></text>
-<text class="section" x="466" y="292">GitHub Stats</text>
-<text class="val" x="466" y="306">Repos: -   Stars: -   Followers: -   Commits: -</text>
+<text class="div" x="466" y="54" xml:space="preserve">--------------------------------------</text>
+<text x="466" y="68"><tspan class="key" xml:space="preserve">Subject:            </tspan><tspan class="val">Ali Asghar</tspan></text>
+<text x="466" y="82"><tspan class="key" xml:space="preserve">Role:               </tspan><tspan class="val">AI/ML Engineer &amp; Full-Stack Dev</tspan></text>
+<text x="466" y="96"><tspan class="key" xml:space="preserve">Origin:             </tspan><tspan class="val">Naushero Feroze, Sindh, Pakistan</tspan></text>
+<text x="466" y="110"><tspan class="key" xml:space="preserve">Education:          </tspan><tspan class="val">CS Student, NED University</tspan></text>
+<text x="466" y="124"><tspan class="key" xml:space="preserve">Experience:         </tspan><tspan class="val">3+ years</tspan></text>
+<text x="466" y="138"><tspan class="key" xml:space="preserve">Status:             </tspan><tspan class="val">Building - Learning - Shipping</tspan></text>
+<text x="466" y="152"><tspan class="key" xml:space="preserve">ToolChain:          </tspan><tspan class="val">VS Code, Git, GitHub, Postman</tspan></text>
+<text class="div" x="466" y="166" xml:space="preserve"></text>
+<text x="466" y="180"><tspan class="key" xml:space="preserve">Neural.Core:        </tspan><tspan class="val">Python, JavaScript, TypeScript</tspan></text>
+<text x="466" y="194"><tspan class="key" xml:space="preserve">Neural.AI:          </tspan><tspan class="val">ML, Deep Learning, CV, NLP, GenAI</tspan></text>
+<text x="466" y="208"><tspan class="key" xml:space="preserve">Neural.Frontend:    </tspan><tspan class="val">React, Next.js, HTML/CSS, Tailwind</tspan></text>
+<text x="466" y="222"><tspan class="key" xml:space="preserve">Neural.Backend:     </tspan><tspan class="val">Node.js, Express, Django, Flask</tspan></text>
+<text x="466" y="236"><tspan class="key" xml:space="preserve">Neural.Stack:       </tspan><tspan class="val">MERN, Django, Flask</tspan></text>
+<text x="466" y="250"><tspan class="key" xml:space="preserve">Neural.DB:          </tspan><tspan class="val">MongoDB, PostgreSQL, MySQL, Redis</tspan></text>
+<text class="section" x="466" y="264">About</text>
+<text x="466" y="278"><tspan class="key" xml:space="preserve">Currently.Learning: </tspan><tspan class="val">Django, TensorFlow</tspan></text>
+<text x="466" y="292"><tspan class="key" xml:space="preserve">Collab.Interest:    </tspan><tspan class="val">DevOps, Open Source, AI Projects</tspan></text>
+<text x="466" y="306"><tspan class="key" xml:space="preserve">Focus.Area:         </tspan><tspan class="val">AI/ML for real-world PK context</tspan></text>
+<text x="466" y="320"><tspan class="key" xml:space="preserve">  :                 </tspan><tspan class="val">(agriculture, energy, assistive tech)</tspan></text>
+<text x="466" y="334"><tspan class="key" xml:space="preserve">Off.Grid:           </tspan><tspan class="val">Writes Urdu poetry</tspan></text>
+<text x="466" y="348"><tspan class="key" xml:space="preserve">Philosophy:         </tspan><tspan class="val">Ships complete, production-ready apps</tspan></text>
+<text class="section" x="466" y="362">Achievements</text>
+<text x="466" y="376"><tspan class="key" xml:space="preserve">LeetCode:           </tspan><tspan class="val">Active problem solver</tspan></text>
+<text x="466" y="390"><tspan class="key" xml:space="preserve">Open.Source:        </tspan><tspan class="val">Contributing to various projects</tspan></text>
+<text x="466" y="404"><tspan class="key" xml:space="preserve">Status.2:           </tspan><tspan class="val">Continuous learner — React, Django, AI/ML</tspan></text>
+<text x="466" y="418"><tspan class="key" xml:space="preserve">Status.3:           </tspan><tspan class="val">Tech blogger</tspan></text>
+<text class="section" x="466" y="432">Contact</text>
+<text x="466" y="446"><tspan class="key" xml:space="preserve">Grid.Mail:          </tspan><tspan class="val">aliasghargh540@gmail.com</tspan></text>
+<text x="466" y="460"><tspan class="key" xml:space="preserve">Grid.Portfolio:     </tspan><tspan class="val">portfolio-asghar-ali.vercel.app</tspan></text>
+<text x="466" y="474"><tspan class="key" xml:space="preserve">Grid.LinkedIn:      </tspan><tspan class="val">ali-asghar-a730322bb</tspan></text>
+<text x="466" y="488"><tspan class="key" xml:space="preserve">Grid.Github:        </tspan><tspan class="val">AsgharGhanghro</tspan></text>
+<text class="section" x="466" y="502">GitHub Stats</text>
+<text class="val" x="466" y="516">Repos: -   Stars: -   Followers: -   Commits: -</text>
 </svg>
