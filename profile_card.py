@@ -55,9 +55,9 @@ CONTACT = {
 
 # GitHub Stats — fill in your real numbers (or wire a GitHub Action step
 # that fetches them via the API and rewrites this dict before running).
-STATS_LINE_1 = "Repos: -   Stars: -"
-STATS_LINE_2 = "Commits: -   Followers: -"
-STATS_LINE_3 = "Lines of Code on GitHub: -"
+STATS_LINE_1 = "Repos: 14   Stars: 2+"
+STATS_LINE_2 = "Commits: 45   Followers: 10+"
+STATS_LINE_3 = "Lines of Code on GitHub: 100,000"
 # --------------------------------------------
 
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
