@@ -28,13 +28,13 @@ FIELDS_1 = {
     "Education": "CS Student, NED University",
     "Experience": "3+ years",
     "Status": "Building . Learning . Shipping",
-    "ToolChain": "VS Code, Git, GitHub, Postman, huggingFace",
+    "ToolChain": "VS Code, Git, GitHub, Postman",
 }
 
 FIELDS_2 = {
     "Neural.Core": "Python, JavaScript, TypeScript",
     "Neural.AI": "ML, Deep Learning, CV, NLP, GenAI",
-    "Neural.Frontend": "React, HTML/CSS, Tailwind",
+    "Neural.Frontend": "React, Next.js, HTML/CSS, Tailwind",
     "Neural.Backend": "Node.js, Express, Django, Flask",
     "Neural.Stack": "MERN, Django, Flask",
     "Neural.DB": "MongoDB, PostgreSQL, MySQL, Redis",
@@ -55,9 +55,9 @@ CONTACT = {
 
 # GitHub Stats — fill in your real numbers (or wire a GitHub Action step
 # that fetches them via the API and rewrites this dict before running).
-STATS_LINE_1 = "Repos: 13+   Stars: 2+"
-STATS_LINE_2 = "Commits: 30   Followers: 10+"
-STATS_LINE_3 = "Lines of Code on GitHub: 100,000"
+STATS_LINE_1 = "Repos: -   Stars: -"
+STATS_LINE_2 = "Commits: -   Followers: -"
+STATS_LINE_3 = "Lines of Code on GitHub: -"
 # --------------------------------------------
 
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
@@ -76,6 +76,14 @@ def image_to_dot_grid(path, grid_w=GRID_W):
     img = Image.open(path).convert("L")
     img = ImageOps.autocontrast(img, cutoff=1)
     img = img.filter(ImageFilter.GaussianBlur(1.3))  # suppress thin watermark/logo linework
+
+    # Known faint watermark/logo mark in the corner of this particular photo —
+    # force it to black so it never renders as a stray dot in the background.
+    from PIL import ImageDraw
+    draw = ImageDraw.Draw(img)
+    w0, h0 = img.size
+    draw.rectangle([w0 * 0.60, 0, w0, h0 * 0.28], fill=0)
+
     w, h = img.size
     grid_h = int(grid_w * (h / w))
     img = img.resize((grid_w, grid_h), Image.LANCZOS)
