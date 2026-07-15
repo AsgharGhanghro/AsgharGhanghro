@@ -16,15 +16,17 @@ Requires:
 """
 
 import sys
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageFilter
 
 # ---------------- Your info ----------------
 HANDLE = "Ali@Neural-Grid"
 
 FIELDS_1 = {
     "Subject": "Ali Asghar",
-    "Role": "AI/ML Engineer",
+    "Role": "AI/ML Engineer & Full-Stack Dev",
     "Origin": "Naushero Feroze, Pakistan",
+    "Education": "CS Student, NED University",
+    "Experience": "3+ years",
     "Status": "Building . Learning . Shipping",
     "ToolChain": "VS Code, Git, GitHub, Postman",
 }
@@ -35,6 +37,13 @@ FIELDS_2 = {
     "Neural.Frontend": "React, Next.js, HTML/CSS, Tailwind",
     "Neural.Backend": "Node.js, Express, Django, Flask",
     "Neural.Stack": "MERN, Django, Flask",
+    "Neural.DB": "MongoDB, PostgreSQL, MySQL, Redis",
+}
+
+ABOUT = {
+    "Currently.Learning": "Django, TensorFlow",
+    "Collab.Interest": "DevOps, Open Source, AI Projects",
+    "Off.Grid": "Writes Urdu poetry",
 }
 
 CONTACT = {
@@ -66,6 +75,7 @@ def image_to_dot_grid(path, grid_w=GRID_W):
     """Convert a photo into a halftone dot grid of (col, row, radius)."""
     img = Image.open(path).convert("L")
     img = ImageOps.autocontrast(img, cutoff=1)
+    img = img.filter(ImageFilter.GaussianBlur(1.3))  # suppress thin watermark/logo linework
     w, h = img.size
     grid_h = int(grid_w * (h / w))
     img = img.resize((grid_w, grid_h), Image.LANCZOS)
@@ -104,6 +114,10 @@ def build_panel_lines():
         panel_lines.append(("field", (k, v)))
     panel_lines.append(("blank", ""))
     for k, v in FIELDS_2.items():
+        panel_lines.append(("field", (k, v)))
+    panel_lines.append(("blank", ""))
+    panel_lines.append(("section", "About"))
+    for k, v in ABOUT.items():
         panel_lines.append(("field", (k, v)))
     panel_lines.append(("blank", ""))
     panel_lines.append(("section", "Contact"))
