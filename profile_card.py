@@ -53,11 +53,6 @@ CONTACT = {
     "Grid.Github": "AsgharGhanghro",
 }
 
-# GitHub Stats — fill in your real numbers (or wire a GitHub Action step
-STATS_LINE_1 = "Repos: 14+  -  Stars: 2+"
-STATS_LINE_2 = "Commits: 45  -   Followers: 10+"
-STATS_LINE_3 = "Lines of Code on GitHub: 100,000"
-# --------------------------------------------
 
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
 
