@@ -56,8 +56,9 @@ DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
 # ---- Halftone portrait settings ----
 GRID_W = 130        # dot columns — higher = more recognizable detail
 DOT_PITCH = 3.6      # px between dot centers
-MAX_DOT_R = 1.85     # px, largest dot radius (darkest pixel)
-MIN_DOT_R = 0.12     # px, smallest dot radius (brightest pixel)
+MAX_DOT_R = 1.85     # px, largest dot radius (brightest pixel)
+MIN_DOT_R = 0.0       # px, darkest pixels get no dot at all
+DARK_CUTOFF = 0.12    # brightness below this = no dot (true black)
 DOT_COLOR = "#40e0e0"
 
 
@@ -74,8 +75,12 @@ def image_to_dot_grid(path, grid_w=GRID_W):
     for i, p in enumerate(pixels):
         col = i % grid_w
         row = i // grid_w
-        darkness = 1 - (p / 255)
-        radius = MIN_DOT_R + darkness * (MAX_DOT_R - MIN_DOT_R)
+        brightness = p / 255  # bright pixel = more cyan ink; dark = recedes to black
+        if brightness < DARK_CUTOFF:
+            radius = 0.0
+        else:
+            norm = (brightness - DARK_CUTOFF) / (1 - DARK_CUTOFF)
+            radius = MIN_DOT_R + norm * (MAX_DOT_R - MIN_DOT_R)
         dots.append((col, row, radius))
     return dots, grid_w, grid_h
 
