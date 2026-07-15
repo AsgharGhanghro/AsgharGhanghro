@@ -58,7 +58,7 @@ GRID_W = 130        # dot columns — higher = more recognizable detail
 DOT_PITCH = 3.6      # px between dot centers
 MAX_DOT_R = 1.85     # px, largest dot radius (darkest pixel)
 MIN_DOT_R = 0.12     # px, smallest dot radius (brightest pixel)
-DOT_COLOR = "#35e0d0"
+DOT_COLOR = "#40e0e0"
 
 
 def image_to_dot_grid(path, grid_w=GRID_W):
@@ -146,8 +146,8 @@ def build_svg(dots, grid_w, grid_h):
   <style>
     .bg {{ fill: #0a0e12; }}
     .frame {{ fill:none; stroke:#1f6f6b; stroke-width:1.5; rx:8; }}
-    .handle {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #35e0d0; font-weight:bold; }}
-    .key {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #35e0d0; }}
+    .handle {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #40e0e0; font-weight:bold; }}
+    .key {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #40e0e0; }}
     .val {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #cfe9e6; }}
     .section {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #ff8a5c; font-weight:bold; }}
     .div {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #1f6f6b; }}
