@@ -28,13 +28,13 @@ FIELDS_1 = {
     "Education": "CS Student, NED University",
     "Experience": "3+ years",
     "Status": "Building . Learning . Shipping",
-    "ToolChain": "VS Code, Git, GitHub, Postman",
+    "ToolChain": "VS Code, Git, GitHub, Postman, huggingFace",
 }
 
 FIELDS_2 = {
     "Neural.Core": "Python, JavaScript, TypeScript",
     "Neural.AI": "ML, Deep Learning, CV, NLP, GenAI",
-    "Neural.Frontend": "React, Next.js, HTML/CSS, Tailwind",
+    "Neural.Frontend": "React, HTML/CSS, Tailwind",
     "Neural.Backend": "Node.js, Express, Django, Flask",
     "Neural.Stack": "MERN, Django, Flask",
     "Neural.DB": "MongoDB, PostgreSQL, MySQL, Redis",
@@ -55,9 +55,9 @@ CONTACT = {
 
 # GitHub Stats — fill in your real numbers (or wire a GitHub Action step
 # that fetches them via the API and rewrites this dict before running).
-STATS_LINE_1 = "Repos: -   Stars: -"
-STATS_LINE_2 = "Commits: -   Followers: -"
-STATS_LINE_3 = "Lines of Code on GitHub: -"
+STATS_LINE_1 = "Repos: 13+   Stars: 2+"
+STATS_LINE_2 = "Commits: 30   Followers: 10+"
+STATS_LINE_3 = "Lines of Code on GitHub: 100,000"
 # --------------------------------------------
 
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
