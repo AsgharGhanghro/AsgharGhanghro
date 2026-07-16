@@ -53,10 +53,10 @@ CONTACT = {
     "Grid.Github": "AsgharGhanghro",
 }
 
- binary assets)
-STATS_LINE_1 = "Repos: 13".ljust(20) + "Stars: 2"
-STATS_LINE_2 = "Commits: 89".ljust(20) + "Followers: 0"
-STATS_LINE_3 = "Lines of Code on GitHub: 129,547"
+# Dummy placeholder stats (no live GitHub API call / binary assets)
+STATS_LINE_1 = "Repos: 14+".ljust(20) + "Stars: 10+"
+STATS_LINE_2 = "Commits: 89".ljust(20) + "Followers: 5+"
+STATS_LINE_3 = "Lines of Code on GitHub: 129,500"
 
 
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
