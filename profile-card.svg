@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1048" height="624" viewBox="0 0 1048 624">
+<svg xmlns="http://www.w3.org/2000/svg" width="1068" height="624" viewBox="0 0 1048 624">
 
   <style>
     .bg { fill: #0a0e12; }
@@ -37,7 +37,7 @@
 <text x="558.0" y="415"><tspan class="key" xml:space="preserve">Grid.LinkedIn: ........</tspan> <tspan class="val">ali-asghar-a730322bb</tspan></text>
 <text x="558.0" y="430"><tspan class="key" xml:space="preserve">Grid.Github: ..........</tspan> <tspan class="val">AsgharGhanghro</tspan></text>
 <text class="section" x="558.0" y="460">GitHub Stats</text>
-<text class="val" x="558.0" y="475" xml:space="preserve">Repos: 14 -   Stars: 5+</text>
-<text class="val" x="558.0" y="490" xml:space="preserve">Commits: 29+   Followers: 10+</text>
+<text class="val" x="558.0" y="475" xml:space="preserve">Repos: 14  -   Stars: 5+</text>
+<text class="val" x="558.0" y="490" xml:space="preserve">Commits: 29+  -  Followers: 10+</text>
 <text class="val" x="558.0" y="505" xml:space="preserve">Lines of Code on GitHub: 129,470</text>
 </svg>
