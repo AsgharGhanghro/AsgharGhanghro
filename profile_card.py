@@ -53,12 +53,6 @@ CONTACT = {
     "Grid.Github": "AsgharGhanghro",
 }
 
-# Dummy placeholder stats (no live GitHub API call / binary assets)
-STATS_LINE_1 = "Repos: 14+" - "Stars: 10+"
-STATS_LINE_2 = "Commits: 89" -  "Followers: 5+"
-STATS_LINE_3 = "Lines of Code on GitHub: 129,500"
-
-
 DOTS_WIDTH = 22    # how many dot-leader characters to draw in labels
 
 # ---- Halftone portrait settings ----
@@ -130,11 +124,6 @@ def build_panel_lines():
     panel_lines.append(("section", "Contact"))
     for k, v in CONTACT.items():
         panel_lines.append(("field", (k, v)))
-    panel_lines.append(("blank", ""))
-    panel_lines.append(("section", "GitHub Stats"))
-    panel_lines.append(("stats", STATS_LINE_1))
-    panel_lines.append(("stats", STATS_LINE_2))
-    panel_lines.append(("stats", STATS_LINE_3))
     return panel_lines
 
 
