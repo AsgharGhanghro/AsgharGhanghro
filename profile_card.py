@@ -53,13 +53,7 @@ CONTACT = {
     "Grid.Github": "AsgharGhanghro",
 }
 
-# ---- GitHub Stats (pulled live from github.com/AsgharGhanghro) ----
-# Repos: 13 public repos
-# Stars: 2 total received (all on the AsgharGhanghro/AsgharGhanghro readme repo)
-# Commits: 89 contributions in the last year (contribution graph)
-# Followers: 0 / Following: 0
-# Lines of Code: 129,547 total across all 13 repos (cloned + counted,
-#   excluding .git, node_modules, build/dist, and binary assets)
+ binary assets)
 STATS_LINE_1 = "Repos: 13".ljust(20) + "Stars: 2"
 STATS_LINE_2 = "Commits: 89".ljust(20) + "Followers: 0"
 STATS_LINE_3 = "Lines of Code on GitHub: 129,547"
