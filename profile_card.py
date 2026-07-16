@@ -54,8 +54,8 @@ CONTACT = {
 }
 
 # Dummy placeholder stats (no live GitHub API call / binary assets)
-STATS_LINE_1 = "Repos: 14+".ljust(20) + "Stars: 10+"
-STATS_LINE_2 = "Commits: 89".ljust(20) + "Followers: 5+"
+STATS_LINE_1 = "Repos: 14+" - "Stars: 10+"
+STATS_LINE_2 = "Commits: 89" -  "Followers: 5+"
 STATS_LINE_3 = "Lines of Code on GitHub: 129,500"
 
 
