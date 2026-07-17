@@ -21,16 +21,16 @@
 
 </div>
 
+## Digital Identity
+
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/assets/ali_banner.svg" width="100%" />
 </div>
+<br>
 
 ---
-<div align="center">
-  <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
-    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" width="700" />
-  </a>
-</div>
+
 
 
 ## About Me
@@ -58,6 +58,13 @@ const aliAsghar = {
   
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+
+
+<div align="center">
+  <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
+    <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/profile-card.svg" alt="Ali Asghar profile card" width="900" />
+  </a>
+</div>
 
 
 
