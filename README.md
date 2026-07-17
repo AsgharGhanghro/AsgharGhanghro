@@ -21,6 +21,12 @@
 
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/assets/ali_banner.svg" width="100%" />
+  <br><br>
+  <img src="https://raw.githubusercontent.com/AsgharGhanghro/AsgharGhanghro/main/assets/ali_idcard.svg" width="300" />
+</div>
+
 ---
 <div align="center">
   <a href="https://github.com/AsgharGhanghro/AsgharGhanghro">
